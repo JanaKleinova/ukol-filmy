@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.movie {
+    display: flex;
+    margin: 1em auto;
+    width: 30%;
+    padding: 2em;
+    background-color: #fff;
+    flex-wrap: wrap;
+
+}
+
+h2 {
+    margin-bottom: 1em;
+}
+
+span {
+    font-weight: 800;
+}
+
+.description {
+    padding-left: 1em;
+}
+
+.rating {
+    margin-top: 1em;
+    text-align: right;
+    font-size: 1.2em;
+    font-weight: 800;
+    color: red;
+
+
+}
+
+.image {
+    height: 200px;
+}
+
+.actor {
+    padding-top: 0.5em;
+}
